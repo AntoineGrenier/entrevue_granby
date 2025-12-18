@@ -13,7 +13,7 @@ namespace cours1
         {
             foreach (var a in animaux)
             {
-                a.Parler();
+                a.Vocaliser();
             }
         }
 
@@ -21,16 +21,16 @@ namespace cours1
 
     abstract class Animal
     {
-        public abstract void Parler();
+        public abstract void Vocaliser();
     }
 
     class Chien : Animal
     {
-        public override void Parler() => Console.WriteLine("Le chien dit : Woof!");
+        public override void Vocaliser() => Console.WriteLine("Le chien dit : Woof!");
     }
 
     class Chat : Animal
     {
-        public override void Parler() => Console.WriteLine("Le chat dit : Miaou!");
+        public override void Vocaliser() => Console.WriteLine("Le chat dit : Miaou!");
     }
 }
