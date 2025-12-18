@@ -5,13 +5,13 @@ Ce document présente trois exercices progressifs pour pratiquer le polymorphism
 ---
 
 ## Exercice 1 : Polymorphisme simple avec animaux
-**Objectif :** Illustrer le polymorphisme dynamique avec une méthode commune `Parler()`.
+**Objectif :** Illustrer le polymorphisme dynamique avec une méthode commune `Vocaliser()`.
 
 ### Énoncé
-- Créez une classe abstraite `Animal` avec une méthode abstraite `Parler()`.
+- Créez une classe abstraite `Animal` avec une méthode abstraite `Vocaliser()`.
 - Créez deux classes concrètes `Chien` et `Chat` qui héritent de `Animal`.
-- Chaque classe doit afficher un message spécifique dans `Parler()`.
-- Dans `Main()`, créez une liste d’`Animal` et appelez `Parler()` sur chaque élément.
+- Chaque classe doit afficher un message spécifique dans `Vocaliser()`.
+- Dans `Main()`, créez une liste d’`Animal` et appelez `Vocaliser()` sur chaque élément.
 
 ---
 
